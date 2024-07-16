@@ -14,7 +14,7 @@ class Stock:
         self.ticker = ticker
         self.company = company
         self.price = price
-        
+
     def get_description(self):
         return f"{self.ticker}: {self.company} -- ${self.price}"
 
